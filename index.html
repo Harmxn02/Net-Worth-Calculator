@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Worth Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> <span>Net</span> Worth Calculator</h1>
+
+    <div id="whole">
+        <div id="left-column" class="column">
+            <h2 id="assets">Assets : <span id="assets-amount"></span> </h2>
+            <div>
+                <label for="realEstate" class="title">Real estate</label>
+                <div>
+                    <p class="description">Estimate the current value of your house (and other real estate you own).</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="realEstate">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="checkingAccounts" class="title">Checking Accounts</label>
+                <div>
+                    <p class="description">How much money do you currently have in your checking account(s)?</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="checkingAccounts">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="savingAccounts" class="title">Savings Accounts</label>
+                <div>
+                    <p class="description">How much money do you currently have in your savings account(s)?</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="savingAccounts">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="retirementAccounts" class="title">Retirement Accounts</label>
+                <div>
+                    <p class="description">How much money do you have in 401(k)s, 403(b)s, IRAs, or other retirement accounts?</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="retirementAccounts">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="cars" class="title">Cars</label>
+                <div>
+                    <p class="description">Estimate the current value of your car (and other vehicles you own).</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="cars">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="otherAssets" class="title">Other assets</label>
+                <div>
+                    <p class="description">Estimate the value of any antiques, jewelry, stocks, bonds, business assets, etc.</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="otherAssets">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ? THE SPLIT -->
+
+        <div id="right-column" class="column">
+            <h2 id="liabilities">Liabilities : <span id="liabities-amount"></span> </h2>
+            <div>
+                <label for="realEstateLoans" class="title">Real Estate Loans</label>
+                <div>
+                    <p class="description">What's the total amount you still owe on your mortgage (and other properties you own)?</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="realEstateLoans">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="creditCardDebt" class="title">Credit Card Debt</label>
+                <div>
+                    <p class="description">How much credit card debt do you owe? Enter the total amount, not monthly payments.</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="creditCardDebt">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="personalLoans" class="title">Personal Loans</label>
+                <div>
+                    <p class="description">Do you have any personal loan debt (i.e. family or friends, payday loans)?</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="personalLoans">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="studentLoans" class="title">Student Loans</label>
+                <div>
+                    <p class="description">Do you have student loan debt? Enter the total amount owed, not monthly payments.</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="studentLoans">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="carLoans" class="title">Car Loans</label>
+                <div>
+                    <p class="description">How much do you owe on your vehicle(s)? Enter the total amount owed, not monthly payments.</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="carLoans">
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <label for="otherDebt" class="title">Other Debt</label>
+                <div>
+                    <p class="description">List any other debts you owe (i.e. medical bills, business loans, HELOCs).</p>
+                    <div class="input-container">
+                        <input type="number" placeholder="$0" name="otherDebt">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div id="calculate">
+        <a>Calculate Net Worth</a>
+    </div>
+
+
+    <div id="result">
+
+    </div>
+
+</body>
+</html>
