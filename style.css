@@ -52,7 +52,7 @@ h1 {
 @media (min-width: 1200px) {
 	#whole {
 		flex-direction: row;
-        max-width: 70%;
+		max-width: 70%;
 	}
 
 	.column > div > div {
