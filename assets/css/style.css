@@ -27,6 +27,11 @@ h1 {
 	margin-top: 5vh;
 }
 
+#calculate:hover {
+	background-color: rgb(45, 140, 255);
+	cursor: pointer;
+}
+
 #whole {
 	display: flex;
 	flex-direction: column;
